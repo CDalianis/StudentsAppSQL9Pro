@@ -1,6 +1,20 @@
-﻿namespace StudentsAppSQL9Pro.Core
+﻿using Microsoft.Data.SqlClient;
+
+namespace StudentsAppSQL9Pro.Core
 {
     public class DBHelper
     {
+        private readonly string? _connectionString;
+
+        public DBHelper(IConfiguration configuration)
+        {
+            _connectionString = configuration.GetConnectionString("DefaultConnection");
+            // configuration["ConnectionStrings:DefaultConnection"]
+        }
+
+        public SqlConnection GetConnection()
+        {
+            return new SqlConnection(_connectionString);
+        }
     }
 }
