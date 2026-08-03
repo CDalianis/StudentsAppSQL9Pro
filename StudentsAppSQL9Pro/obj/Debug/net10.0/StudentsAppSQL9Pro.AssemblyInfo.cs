@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudentsAppSQL9Pro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3a0a78ab1a2134ec8bf2e51760c6169e01415c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65895da4637694ec2e807c50f78614820fadcc8c")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudentsAppSQL9Pro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudentsAppSQL9Pro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
